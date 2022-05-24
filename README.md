@@ -4,7 +4,7 @@
 
 **可以star一下，一起学习！**
 
-## 微服务安全-OAuth2
+#### 微服务安全-OAuth2
 
 - [微服务架构技术栈预览](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%89%E5%85%A8-OAuth2/0.%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%8A%80%E6%9C%AF%E6%A0%88%E9%A2%84%E8%A7%88.md)
 - [微服务安全概述](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%89%E5%85%A8-OAuth2/1.%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%89%E5%85%A8%E6%A6%82%E8%BF%B0.md)
@@ -25,7 +25,7 @@
 
 
 
-## 微服务网关Zuul
+#### 微服务网关Zuul
 
 - [Zuul网关概念和使用场景](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-Zuul/1.Zuul%E7%BD%91%E5%85%B3%E6%A6%82%E5%BF%B5%E5%92%8C%E5%BA%94%E7%94%A8.md)
 - [Zuul网关高级应用场景](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-Zuul/2.Zuul%E7%BD%91%E5%85%B3%E7%9A%84%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md)
@@ -43,7 +43,7 @@
 
 
 
-## 调用链监控-Cat
+#### 调用链监控-Cat
 
 
 - [调用链监控的需求背景](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E8%B0%83%E7%94%A8%E9%93%BE%E7%9B%91%E6%8E%A7-Cat/1.%E8%B0%83%E7%94%A8%E9%93%BE%E7%9B%91%E6%8E%A7%E7%9A%84%E9%9C%80%E6%B1%82%E8%83%8C%E6%99%AF.md)
@@ -54,7 +54,7 @@
 - [CAT本地部署](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E8%B0%83%E7%94%A8%E9%93%BE%E7%9B%91%E6%8E%A7-Cat/6.Cat%E7%9A%84%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85.md)
 
 
-## 配置中心-Apollo
+#### 配置中心-Apollo
 
 - [配置中心业务需求](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83-Apollo/1.%20%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E4%B8%9A%E5%8A%A1%E9%9C%80%E6%B1%82.md)
 - [配置的定义和场景](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83-Apollo/2.%20%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9C%BA%E6%99%AF.md)
@@ -63,7 +63,7 @@
 
 
 
-## 容错与限流-Hystrix
+#### 容错与限流-Hystrix
 
 - [容错限流背后的需求](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/1.%E5%AE%B9%E9%94%99%E9%99%90%E6%B5%81%E7%9A%84%E8%83%8C%E6%99%AF%E9%9C%80%E6%B1%82.md)
 - [容错限流的原理](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/2.%E5%AE%B9%E9%94%99%E9%99%90%E6%B5%81%E7%9A%84%E5%8E%9F%E7%90%86.md)
@@ -71,5 +71,16 @@
 - [Hystrix设计原理](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/4.Hystrix%E8%AE%BE%E8%AE%A1%E5%8E%9F%E7%90%86.md)
 - [Hystrix的主要概念](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/5.Hystrix%E7%9A%84%E4%B8%BB%E8%A6%81%E6%A6%82%E5%BF%B5.md)
 - [信号量隔离和线程池隔离](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/6.%E4%BF%A1%E5%8F%B7%E9%87%8F%E5%92%8C%E7%BA%BF%E7%A8%8B%E6%B1%A0%E9%9A%94%E7%A6%BB.md)
+- [Hystrix主要配置项](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/7.Hystrix%E4%B8%BB%E8%A6%81%E9%85%8D%E7%BD%AE%E9%A1%B9.md)
+- [Hystrix基础实验](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/8.Hystrix%E5%9F%BA%E7%A1%80%E5%AE%9E%E9%AA%8C.md)
+- [Hystrix模拟案例分析](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/9.Hystrix%E6%A8%A1%E6%8B%9F%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90.md)
+- [网关集成Hystrix](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/10.%E7%BD%91%E5%85%B3%E9%9B%86%E6%88%90Hystrix.md)
+- [Spring Cloud Hystrix实验](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/11.SpringCloud%20Hystrix.md)
+- [Hystrix生产最佳实践](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E5%AE%B9%E9%94%99%E4%B8%8E%E9%99%90%E6%B5%81-hystrix/13.Hystrix%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
 
 
+#### 服务发现Eureka&负载均衡Ribbon
+- [服务发现的背景](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E6%B3%A8%E5%86%8C%E5%8F%91%E7%8E%B0-Eureka/1.%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0%E7%9A%84%E9%9C%80%E6%B1%82.md)
+- [Netflix Eureka 和 Ribbon的背景介绍](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E6%B3%A8%E5%86%8C%E5%8F%91%E7%8E%B0-Eureka/2.Eureka%E5%92%8CRibbon%E7%9A%84%E8%83%8C%E6%99%AF%E4%BB%8B%E7%BB%8D.md)
+- [Eureka架构设计](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E6%B3%A8%E5%86%8C%E5%8F%91%E7%8E%B0-Eureka/3.Eureka%E5%92%8CRibbon%E6%9E%B6%E6%9E%84%E5%8E%9F%E7%90%86.md)
+- [Ribbon架构设计](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E6%B3%A8%E5%86%8C%E5%8F%91%E7%8E%B0-Eureka/4.Ribbon%E6%9E%B6%E6%9E%84%E5%8E%9F%E7%90%86.md)
