@@ -1,0 +1,174 @@
+实验一、Prometheus起步查询实验
+======
+
+### 实验步骤
+
+#### 1. 运行Prometheus HTTP Metrics Simulator
+
+* 将[http-simulator](../http-simulator)导入Eclipse IDE
+* Review代码理解模拟器原理
+* 以Spring Boot方式运行模拟器
+
+![](https://oscimg.oschina.net/oscnet/up-ab3328d516746c2094ab7dac1355c997dc5.png)
+
+* 通过`http://localhost:8080/prometheus`查看metrics
+
+
+![](https://oscimg.oschina.net/oscnet/up-2c37e73f2a8f9238e9f23b03b1b9ff809c9.png)
+
+* 通过Postman启用随机Spike模式
+
+```
+curl -X POST http://SERVICE_URL:8080/spike/random
+```
+```
+localhost:8080/opts 查看项目高峰模式
+```
+
+![](https://oscimg.oschina.net/oscnet/up-c4b29d7722811870ac75606672e632a4cb7.png)
+
+
+#### 2. 安装运行Promethus
+
+下载[Prometheus 2.4.3 for Windows](https://github.com/prometheus/prometheus/releases/download/v2.4.3/prometheus-2.4.3.windows-amd64.tar.gz)，并解压到本地目录。
+
+调整全配置项
+```yml
+
+# my global config
+global:
+  scrape_interval:     5s # Set the scrape interval to every 5 seconds. Default is every 1 minute.
+  scrape_timeout: 5s
+  evaluation_interval: 5s # Evaluate rules every 5 seconds. The default is every 1 minute.
+
+```
+
+添加http-simulator Job配置项 
+
+```yml
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+    - targets: ['localhost:9090']	
+  - job_name: 'http-simulator'
+    metrics_path: /prometheus
+    static_configs:
+    - targets: ['localhost:8080']
+
+```
+
+运行Prometheus
+```
+./prometheus.exe
+```
+
+访问Prometheus Web UI
+```
+http://localhost:9090
+```
+
+![](https://oscimg.oschina.net/oscnet/up-e489f3f601fa575574f9a34e594dffbd10c.png)
+
+通过`Status->Targets`，或者通过`Graph`查询
+```
+up
+```
+metric方式校验`prometheus`和`http-simulator`两个jobs在**UP**或**1**状态。
+
+#### 3. 请求率(Request Rate)查询
+
+校验http-simulator在**1**状态
+```
+up{job="http-simulator"}
+```
+
+![](https://oscimg.oschina.net/oscnet/up-241d942f7741d7fe139c5a1af9c472de1d5.png)
+
+查询http请求数
+```
+http_requests_total{job="http-simulator"}
+```
+![](https://oscimg.oschina.net/oscnet/up-93f9f1382c883949d7624d1953a9190ae24.png)
+
+可以看一下图标：
+
+![](https://oscimg.oschina.net/oscnet/up-3221a1904498481e4a3df9a44ee133e654b.png)
+
+查询成功login请求数
+```
+http_requests_total{job="http-simulator", status="200", endpoint="/login"}
+```
+
+查询成功请求数，以endpoint区分
+```
+http_requests_total{job="http-simulator", status="200"}
+```
+
+![](https://oscimg.oschina.net/oscnet/up-02b5fe47a136970115785f4c37a19de9f31.png)
+
+查询总成功请求数
+```
+sum(http_requests_total{job="http-simulator", status="200"})
+```
+
+![](https://oscimg.oschina.net/oscnet/up-aa36f22a29f4ca0801f3b71983f2aaab947.png)
+
+查询成功请求率，以endpoint区分
+```
+rate(http_requests_total{job="http-simulator", status="200"}[5m])
+```
+![](https://oscimg.oschina.net/oscnet/up-912696a9392eb2387074600cfb1b8c4ca20.png) 
+
+查询总成功请求率
+```
+sum(rate(http_requests_total{job="http-simulator", status="200"}[5m]))
+```
+
+![](https://oscimg.oschina.net/oscnet/up-86032be2ff24c818842e9fad4e7cafd504c.png)
+
+#### 4. 延迟分布(Latency distribution)查询
+
+查询http-simulator延迟分布
+```
+http_request_duration_milliseconds_bucket{job="http-simulator"}
+```
+
+![](https://oscimg.oschina.net/oscnet/up-61716aa1c56ff7ac3e6e3432c05d76e9e93.png)
+
+
+
+查询成功login延迟分布
+```
+http_request_duration_milliseconds_bucket{job="http-simulator", status="200", endpoint="/login"}
+```
+
+![](https://oscimg.oschina.net/oscnet/up-3c9c7cbf35387ff4c663f98d97a92dbb111.png) 
+
+不超过200ms延迟的成功login请求占比
+```
+sum(http_request_duration_milliseconds_bucket{job="http-simulator", status="200", endpoint="/login", le="200.0"}) / sum(http_request_duration_milliseconds_count{job="http-simulator", status="200", endpoint="/login"})
+```
+
+![](https://oscimg.oschina.net/oscnet/up-b70e77af1f533fe9d959e356e3fb63fd4e1.png)
+
+
+成功login请求延迟的99百分位
+```
+histogram_quantile(0.99, rate(http_request_duration_milliseconds_bucket{job="http-simulator", status="200", endpoint="/login"}[5m]))
+```
+
+
+![](https://oscimg.oschina.net/oscnet/up-b0315d64781a52a29d469045495edf9ea34.png)
+
+
+更多查询参见[PromQL 官方文档](https://prometheus.io/docs/prometheus/latest/querying/basics/)
+
+
+
