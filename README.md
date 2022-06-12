@@ -94,3 +94,13 @@
 - [基于Eureka+Zuul+容器云的持续交付架构](https://github.com/geekibli/soa_study/blob/main/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%AE%9E%E6%88%98160%E8%AE%B2/%E6%B3%A8%E5%86%8C%E5%8F%91%E7%8E%B0-Eureka/12.%E5%9F%BA%E4%BA%8EEureka%2BZuul%2B%E5%AE%B9%E5%99%A8%E4%BA%91%E7%9A%84%E6%8C%81%E7%BB%AD%E4%BA%A4%E4%BB%98%E6%9E%B6%E6%9E%84.md)
 
 
+## 监控模块-Prometheus
+
+
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/1.监控模式的分类.md)
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/2.BusDevOps和测量驱动开发MDD.md)
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/3.Prometheus简介.md)
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/4.Prometheus起步查询实验.html)
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/5.prometheus%2Bgrafana实验.md)
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/6.Prometheus%2BAlertmanager告警实验.md)
+- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/7.Java应用埋点和监控实验.md)
