@@ -97,10 +97,15 @@
 ## 监控模块-Prometheus
 
 
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/1.监控模式的分类.md)
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/2.BusDevOps和测量驱动开发MDD.md)
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/3.Prometheus简介.md)
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/4.Prometheus起步查询实验.html)
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/5.prometheus%2Bgrafana实验.md)
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/6.Prometheus%2BAlertmanager告警实验.md)
-- [](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/7.Java应用埋点和监控实验.md)
+- [1.监控模式的分类](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/1.监控模式的分类.md)
+- [2.BusDevOps和测量驱动开发MDD](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/2.BusDevOps和测量驱动开发MDD.md)
+- [3.Prometheus简介](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/3.Prometheus简介.md)
+- [4.Prometheus起步查询实验](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/4.Prometheus起步查询实验.md)
+- [5.prometheus+grafana实验](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/5.prometheus%2Bgrafana实验.md)
+- [6.Prometheus+Alertmanager告警实验](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/6.Prometheus%2BAlertmanager告警实验.md)
+- [7.Java应用埋点和监控实验](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/7.Java应用埋点和监控实验.md)
+- [8.NodeExports系统监控实验](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/8.NodeExports系统监控实验.md)
+- [9.SpringBoot Actuator监控实验](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/9.Spring%20Boot%20Actuator%20监控实验.md)
+- [10.Prometheus生产最佳实践](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/10.Prometheus生产最佳实践.md)
+- [11.主流开源时序数据库对比](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/11.主流开源时序数据库对比.md)
+- [12.微服务监控体系总结](https://github.com/geekibli/soa_study/blob/main/极客时间-微服务实战160讲/监控模块-Prometheus/12.微服务监控体系总结.md)
